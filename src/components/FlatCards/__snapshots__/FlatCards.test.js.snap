@@ -1,0 +1,826 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a FlatCards component Should render the FlatCards of page 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="FlatCard"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F5",
+        "borderRadius": 20,
+        "display": "flex",
+        "elevation": 5,
+        "justifyContent": "center",
+        "margin": 10,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 3.84,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "a",
+        }
+      }
+      style={
+        Object {
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "height": 220,
+          "width": 350,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+    >
+      <Text />
+      <Text />
+      <Text>
+         €
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text>
+           
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text>
+           
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text>
+          m2
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰭍
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 45,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 45,
+              },
+              Object {
+                "right": -30,
+                "top": -85,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="FlatCardsButton"
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 45,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 45,
+              },
+              Object {
+                "right": -10,
+                "top": -260,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 35,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#397ED0",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 20,
+                "justifyContent": "center",
+                "left": -5,
+                "position": "absolute",
+                "top": -5,
+                "width": 20,
+              }
+            }
+          >
+            <Text>
+              7
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Given a FlatCards component When flats_id !== user.user.favorites addFav is invoked 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="FlatCard"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F5",
+        "borderRadius": 20,
+        "display": "flex",
+        "elevation": 5,
+        "justifyContent": "center",
+        "margin": 10,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 3.84,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "a",
+        }
+      }
+      style={
+        Object {
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "height": 220,
+          "width": 350,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+    >
+      <Text />
+      <Text />
+      <Text>
+         €
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text>
+           
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text>
+           
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text>
+          m2
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰭍
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 45,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 45,
+              },
+              Object {
+                "right": -30,
+                "top": -85,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="FlatCardsButton"
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 45,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 45,
+              },
+              Object {
+                "right": -10,
+                "top": -260,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 35,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#397ED0",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 20,
+                "justifyContent": "center",
+                "left": -5,
+                "position": "absolute",
+                "top": -5,
+                "width": 20,
+              }
+            }
+          >
+            <Text>
+              7
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Given a FlatCards component When flats_id === user.user.favorites removeFav is invoked 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="FlatCard"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F5",
+        "borderRadius": 20,
+        "display": "flex",
+        "elevation": 5,
+        "justifyContent": "center",
+        "margin": 10,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 3.84,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "a",
+        }
+      }
+      style={
+        Object {
+          "borderTopLeftRadius": 20,
+          "borderTopRightRadius": 20,
+          "height": 220,
+          "width": 350,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+    >
+      <Text />
+      <Text />
+      <Text>
+         €
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text>
+           
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text>
+           
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "FontAwesome",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text>
+          m2
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000",
+                "fontSize": 25,
+              },
+              Object {
+                "margin": 10,
+              },
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰭍
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 45,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 45,
+              },
+              Object {
+                "right": -30,
+                "top": -85,
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="FlatCardsButton"
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#EE3BC5",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 45,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 45,
+              },
+              Object {
+                "right": -10,
+                "top": -260,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 35,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#397ED0",
+                "borderRadius": 50,
+                "display": "flex",
+                "height": 20,
+                "justifyContent": "center",
+                "left": -5,
+                "position": "absolute",
+                "top": -5,
+                "width": 20,
+              }
+            }
+          >
+            <Text>
+              7
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

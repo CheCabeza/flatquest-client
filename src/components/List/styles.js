@@ -1,0 +1,97 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  icon_container: {
+    width: 45,
+    height: 45,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'relative',
+    borderRadius: 50,
+    backgroundColor: '#F5F5F5',
+  },
+  button: {
+    width: 150,
+    height: 50,
+    backgroundColor: '#FFB800',
+    display: 'flex',
+    alignItems: 'center',
+    alignSelf: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    margin: 15,
+    borderRadius: 25,
+  },
+  input: {
+    width: 300,
+    height: 50,
+    paddingLeft: 15,
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    textAlign: 'center',
+    fontSize: 25,
+    margin: 15,
+    borderWidth: 2,
+    borderRadius: 25,
+    borderColor: '#397ED0',
+  },
+  inputText: {
+    paddingLeft: 20,
+    fontSize: 20,
+  },
+  miniIcon_container: {
+    width: 20,
+    height: 20,
+    top: -5,
+    left: -5,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    borderRadius: 50,
+    backgroundColor: '#397ED0',
+  },
+  icon: {
+    margin: 10,
+  },
+  page: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    backgroundColor: 'white',
+  },
+  info: {
+    margin: 10,
+  },
+  img: {
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    width: 350,
+    height: 220,
+  },
+  iconSection: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  box: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5F5F5',
+    borderRadius: 20,
+    shadowColor: '#000',
+    margin: 10,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+});
+
+export default styles;

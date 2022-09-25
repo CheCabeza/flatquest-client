@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Details component Should render the lobby of page 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "paddingBottom": 30,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "flex": 1,
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+            }
+          }
+        >
+          Details
+        </Text>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 20,
+                "display": "flex",
+                "elevation": 5,
+                "justifyContent": "center",
+                "margin": 10,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 3.84,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "a",
+                }
+              }
+              style={
+                Object {
+                  "borderTopLeftRadius": 20,
+                  "borderTopRightRadius": 20,
+                  "height": 220,
+                  "width": 350,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "margin": 10,
+                }
+              }
+            >
+              <Text />
+              <Text />
+              <Text>
+                 €
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text>
+                   
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                  m2
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰭍
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#F5F5F5",
+                        "borderRadius": 50,
+                        "display": "flex",
+                        "height": 45,
+                        "justifyContent": "center",
+                        "position": "relative",
+                        "width": 45,
+                      },
+                      Object {
+                        "right": -30,
+                        "top": -85,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 25,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "FontAwesome",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="editButton"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "#C4C4C4",
+                  "borderBottomWidth": 1,
+                  "borderTopColor": "#C4C4C4",
+                  "borderTopWidth": 1,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "margin": 20,
+                  "paddingTop": 10,
+                  "width": 300,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2C7F42",
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2C7F42",
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#CA0303",
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#CA0303",
+                        "fontSize": 40,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "borderColor": "#397ED0",
+                    "borderRadius": 25,
+                    "borderWidth": 2,
+                    "height": "auto",
+                    "margin": 10,
+                    "padding": 13,
+                    "paddingLeft": 15,
+                    "width": 300,
+                  }
+                }
+              >
+                Mierda de test
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

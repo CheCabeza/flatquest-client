@@ -1,0 +1,4505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Filter component Should render the Filter of page 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "paddingBottom": 30,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "flex": 1,
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="frownButton"
+          >
+            
+          </Text>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="mehButton"
+          >
+            
+          </Text>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="smileButton"
+          >
+            
+          </Text>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="grinButton"
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#397ED0",
+                "borderRadius": 25,
+                "borderWidth": 2,
+                "display": "flex",
+                "flexDirection": "row",
+                "fontSize": 25,
+                "height": 50,
+                "justifyContent": "space-between",
+                "margin": 13,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "textAlign": "center",
+                "width": 150,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="+ 1"
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "+ 1",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "+ 2",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "2",
+                          },
+                          Object {
+                            "label": "+ 3",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "3",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={0}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#397ED0",
+                "borderRadius": 25,
+                "borderWidth": 2,
+                "display": "flex",
+                "flexDirection": "row",
+                "fontSize": 25,
+                "height": 50,
+                "justifyContent": "space-between",
+                "margin": 13,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "textAlign": "center",
+                "width": 150,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="+ 1"
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "+ 1",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "+ 2",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "2",
+                          },
+                          Object {
+                            "label": "+ 3",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "3",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={0}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#397ED0",
+                  "borderRadius": 25,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "fontSize": 25,
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "margin": 13,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "textAlign": "center",
+                  "width": 150,
+                },
+                Object {
+                  "width": 325,
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome5Free-Solid",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {
+                    "fontWeight": "900",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {
+                          "color": "#c7c7cd",
+                        },
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="Neighborhood"
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "Neighborhood",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "",
+                          },
+                          Object {
+                            "label": "El Gòtic",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "El Gòtic",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={0}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#397ED0",
+                  "borderRadius": 25,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "fontSize": 25,
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "margin": 13,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "textAlign": "center",
+                  "width": 150,
+                },
+                Object {
+                  "width": 325,
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {
+                          "color": "#c7c7cd",
+                        },
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="min."
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "min.",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "500",
+                          },
+                          Object {
+                            "label": "500 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "500",
+                          },
+                          Object {
+                            "label": "600 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "600",
+                          },
+                          Object {
+                            "label": "700 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "700",
+                          },
+                          Object {
+                            "label": "800 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "800",
+                          },
+                          Object {
+                            "label": "900 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "900",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={1}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {
+                          "color": "#c7c7cd",
+                        },
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="max."
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "max.",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1400",
+                          },
+                          Object {
+                            "label": "1.000 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1000",
+                          },
+                          Object {
+                            "label": "1.100 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1100",
+                          },
+                          Object {
+                            "label": "1.200 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1200",
+                          },
+                          Object {
+                            "label": "1.300 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1300",
+                          },
+                          Object {
+                            "label": "1.400 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1400",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={5}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="FlatCard"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 20,
+                "display": "flex",
+                "elevation": 5,
+                "justifyContent": "center",
+                "margin": 10,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 3.84,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "a",
+                }
+              }
+              style={
+                Object {
+                  "borderTopLeftRadius": 20,
+                  "borderTopRightRadius": 20,
+                  "height": 220,
+                  "width": 350,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "margin": 10,
+                }
+              }
+            >
+              <Text />
+              <Text>
+                El Gòtic
+              </Text>
+              <Text>
+                 €
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text>
+                   
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                  m2
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰭍
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#F5F5F5",
+                        "borderRadius": 50,
+                        "display": "flex",
+                        "height": 45,
+                        "justifyContent": "center",
+                        "position": "relative",
+                        "width": 45,
+                      },
+                      Object {
+                        "right": -30,
+                        "top": -85,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="FlatCardsButton"
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#EE3BC5",
+                            "fontSize": 25,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "FontAwesome",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#F5F5F5",
+                        "borderRadius": 50,
+                        "display": "flex",
+                        "height": 45,
+                        "justifyContent": "center",
+                        "position": "relative",
+                        "width": 45,
+                      },
+                      Object {
+                        "right": -10,
+                        "top": -260,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 35,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "FontAwesome5Free-Regular",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontWeight": "400",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#397ED0",
+                        "borderRadius": 50,
+                        "display": "flex",
+                        "height": 20,
+                        "justifyContent": "center",
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "width": 20,
+                      }
+                    }
+                  >
+                    <Text>
+                      7
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
+
+exports[`Given a Filter component Then filterByFace is invoked when pressing frownButton 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "paddingBottom": 30,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "flex": 1,
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#397ED0",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="frownButton"
+          >
+            
+          </Text>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="mehButton"
+          >
+            
+          </Text>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="smileButton"
+          >
+            
+          </Text>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 40,
+                },
+                Object {
+                  "margin": 20,
+                },
+                Object {
+                  "fontFamily": "FontAwesome5Free-Regular",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "400",
+                },
+              ]
+            }
+            testID="grinButton"
+          >
+            
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#397ED0",
+                "borderRadius": 25,
+                "borderWidth": 2,
+                "display": "flex",
+                "flexDirection": "row",
+                "fontSize": 25,
+                "height": 50,
+                "justifyContent": "space-between",
+                "margin": 13,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "textAlign": "center",
+                "width": 150,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="+ 1"
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "+ 1",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "+ 2",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "2",
+                          },
+                          Object {
+                            "label": "+ 3",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "3",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={0}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderColor": "#397ED0",
+                "borderRadius": 25,
+                "borderWidth": 2,
+                "display": "flex",
+                "flexDirection": "row",
+                "fontSize": 25,
+                "height": 50,
+                "justifyContent": "space-between",
+                "margin": 13,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "textAlign": "center",
+                "width": 150,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="+ 1"
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "+ 1",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1",
+                          },
+                          Object {
+                            "label": "+ 2",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "2",
+                          },
+                          Object {
+                            "label": "+ 3",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "3",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={0}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#397ED0",
+                  "borderRadius": 25,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "fontSize": 25,
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "margin": 13,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "textAlign": "center",
+                  "width": 150,
+                },
+                Object {
+                  "width": 325,
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome5Free-Solid",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {
+                    "fontWeight": "900",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {
+                          "color": "#c7c7cd",
+                        },
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="Neighborhood"
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "Neighborhood",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "",
+                          },
+                          Object {
+                            "label": "El Gòtic",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "El Gòtic",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={0}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderColor": "#397ED0",
+                  "borderRadius": 25,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "fontSize": 25,
+                  "height": 50,
+                  "justifyContent": "space-between",
+                  "margin": 13,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "textAlign": "center",
+                  "width": 150,
+                },
+                Object {
+                  "width": 325,
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {
+                          "color": "#c7c7cd",
+                        },
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="min."
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "min.",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "500",
+                          },
+                          Object {
+                            "label": "500 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "500",
+                          },
+                          Object {
+                            "label": "600 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "600",
+                          },
+                          Object {
+                            "label": "700 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "700",
+                          },
+                          Object {
+                            "label": "800 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "800",
+                          },
+                          Object {
+                            "label": "900 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "900",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={1}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                  },
+                  Object {
+                    "marginTop": 15,
+                  },
+                ]
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="ios_touchable_wrapper"
+              >
+                <View
+                  pointerEvents="box-only"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        undefined,
+                        Object {
+                          "color": "#c7c7cd",
+                        },
+                      ]
+                    }
+                    testID="text_input"
+                    underlineColorAndroid="transparent"
+                    value="max."
+                  />
+                </View>
+              </View>
+              <Modal
+                hardwareAccelerated={false}
+                onOrientationChange={[Function]}
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                testID="ios_modal"
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "opacity": 1,
+                    }
+                  }
+                  testID="ios_modal_top"
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#f8f8f8",
+                        "borderTopColor": "#dedede",
+                        "borderTopWidth": 1,
+                        "flexDirection": "row",
+                        "height": 45,
+                        "justifyContent": "space-between",
+                        "paddingHorizontal": 10,
+                        "zIndex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                  testID="input_accessory_view"
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flexDirection": "row",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 11,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 4,
+                                },
+                                Object {
+                                  "rotate": "-45deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "borderColor": "#a1a1a1",
+                              "borderRightWidth": 1.5,
+                              "borderTopWidth": 1.5,
+                              "height": 15,
+                              "width": 15,
+                            },
+                            undefined,
+                            Object {
+                              "marginLeft": 22,
+                              "transform": Array [
+                                Object {
+                                  "translateY": -5,
+                                },
+                                Object {
+                                  "rotate": "135deg",
+                                },
+                              ],
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    hitSlop={
+                      Object {
+                        "bottom": 4,
+                        "left": 4,
+                        "right": 4,
+                        "top": 4,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="done_button"
+                  >
+                    <View
+                      testID="needed_for_touchable"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007aff",
+                              "fontSize": 17,
+                              "fontWeight": "600",
+                              "paddingRight": 11,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                            Object {},
+                          ]
+                        }
+                        testID="done_text"
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#d0d4da",
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "height": 215,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View>
+                    <RNCPicker
+                      items={
+                        Array [
+                          Object {
+                            "label": "max.",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1400",
+                          },
+                          Object {
+                            "label": "1.000 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1000",
+                          },
+                          Object {
+                            "label": "1.100 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1100",
+                          },
+                          Object {
+                            "label": "1.200 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1200",
+                          },
+                          Object {
+                            "label": "1.300 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1300",
+                          },
+                          Object {
+                            "label": "1.400 €",
+                            "testID": undefined,
+                            "textColor": undefined,
+                            "value": "1400",
+                          },
+                        ]
+                      }
+                      onChange={[Function]}
+                      selectedIndex={5}
+                      style={
+                        Array [
+                          Object {
+                            "height": 216,
+                          },
+                          undefined,
+                        ]
+                      }
+                      testID="ios_picker"
+                    />
+                  </View>
+                </View>
+              </Modal>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 25,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="FlatCard"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5F5F5",
+                "borderRadius": 20,
+                "display": "flex",
+                "elevation": 5,
+                "justifyContent": "center",
+                "margin": 10,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 3.84,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "a",
+                }
+              }
+              style={
+                Object {
+                  "borderTopLeftRadius": 20,
+                  "borderTopRightRadius": 20,
+                  "height": 220,
+                  "width": 350,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "margin": 10,
+                }
+              }
+            >
+              <Text />
+              <Text>
+                El Gòtic
+              </Text>
+              <Text>
+                 €
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text>
+                   
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                   
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "FontAwesome",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text>
+                  m2
+                </Text>
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 25,
+                      },
+                      Object {
+                        "margin": 10,
+                      },
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰭍
+                </Text>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#F5F5F5",
+                        "borderRadius": 50,
+                        "display": "flex",
+                        "height": 45,
+                        "justifyContent": "center",
+                        "position": "relative",
+                        "width": 45,
+                      },
+                      Object {
+                        "right": -30,
+                        "top": -85,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="FlatCardsButton"
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#EE3BC5",
+                            "fontSize": 25,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "FontAwesome",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#F5F5F5",
+                        "borderRadius": 50,
+                        "display": "flex",
+                        "height": 45,
+                        "justifyContent": "center",
+                        "position": "relative",
+                        "width": 45,
+                      },
+                      Object {
+                        "right": -10,
+                        "top": -260,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000",
+                          "fontSize": 35,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "FontAwesome5Free-Regular",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontWeight": "400",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#397ED0",
+                        "borderRadius": 50,
+                        "display": "flex",
+                        "height": 20,
+                        "justifyContent": "center",
+                        "left": -5,
+                        "position": "absolute",
+                        "top": -5,
+                        "width": 20,
+                      }
+                    }
+                  >
+                    <Text>
+                      7
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
